@@ -25,69 +25,69 @@ Welcome to the Payment API project! This software project aims to develop a syst
    - NGOs (Non-profit organizations)
 
 ## API provides the follwing web services:
-1. The system checks if the username or the email is registered before.
+### 1. The system checks if the username or the email is registered before.
 
-Endpoint: GET /user/check
+   Endpoint: GET /user/check
 
-Description: A service to check if the user exists or not. This service returns all user info if exists
+   Description: A service to check if the user exists or not. This service returns all user info if exists
 
-Input: email and password.
+   Input: email and password.
  
-2. The user can sign in to the system.
+### 2. The user can sign in to the system.
 
-Endpoint: POST/Client/login
+   Endpoint: POST/Client/login
 
-Input: username, password
+   Input: username, password
 
-3. The user can sign up to the system
+### 3. The user can sign up to the system
 
-Endpoint: POST/Client/signup
+   Endpoint: POST/Client/signup
 
-Input: username, password and email
+   Input: username, password and email
 
-4. The admin can sign in to the system.
+### 4. The admin can sign in to the system.
 
-Endpoint: POST/Admin/login
+   Endpoint: POST/Admin/login
 
-Input: username, password
+   Input: username, password
 
-5. The admin can sign up to the system.
+### 5. The admin can sign up to the system.
 
-Endpoint: POST/Admin/signup
+   Endpoint: POST/Admin/signup
 
-Input: username, password and email 
+   Input: username, password and email 
 
-6. The user can search for any service in the system.
+### 6. The user can search for any service in the system.
 
-Endpoint: POST /Client/search/service
+   Endpoint: POST /Client/search/service
 
-Input: service name
+   Input: service name
 
-7. The user can pay for any service in the system.
+### 7. The user can pay for any service in the system.
 
-Endpoint: POST/Client/pay
+   Endpoint: POST/Client/pay
 
-8. The user can ask for a refund for any complete transaction to any given service.
+### 8. The user can ask for a refund for any complete transaction to any given service.
 
-Endpoint: POST/Client/refund
+   Endpoint: POST/Client/refund
 
-9. The system maintain a wallet balance for each user
+### 9. The system maintain a wallet balance for each user
 
-Endpoint: PUT /Client/wallet
+   Endpoint: PUT /Client/wallet
 
-10. The user can check any discount for any service in the system.
+### 10. The user can check any discount for any service in the system.
 
-Endpoint: POST /Client/search/discount
+   Endpoint: POST /Client/search/discount
 
-11. The system allow the admin to add overall discounts. (for all products)
+### 11. The system allow the admin to add overall discounts. (for all products)
 
-Endpoint: POST /Admin/adddiscount/overall
+   Endpoint: POST /Admin/adddiscount/overall
 
-12. The system allow the admin to add specific discounts. (for specific products)
+### 12. The system allow the admin to add specific discounts. (for specific products)
 
-Endpoint: POST /Admin/adddiscount/ specific
+   Endpoint: POST /Admin/adddiscount/ specific
 
-13. The admin can accept or reject any refund request.
+### 13. The admin can accept or reject any refund request.
 
 Endpoint: POST /Admin/refund/accept
 
