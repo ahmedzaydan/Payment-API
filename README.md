@@ -26,6 +26,7 @@ Welcome to the Payment API project! This software project aims to develop a syst
 
 ## API provides the follwing web services:
 1. The system checks if the username or the email is registered before.
+
 Endpoint: GET /user/check
 Description: A service to check if the user exists or not. This service returns all user info if exists
 Input: email and password.
